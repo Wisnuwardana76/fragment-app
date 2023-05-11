@@ -11,18 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjrctApp"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".OkeActivity2"
+            android:exported='false'
+            android:name="com.example.fragmentapp.MainActivity"
             android:exported="false" />
+        
     </application>
 
 </manifest>
